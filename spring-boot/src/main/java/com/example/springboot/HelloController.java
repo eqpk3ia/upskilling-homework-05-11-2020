@@ -6,24 +6,24 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class HelloController {
 
-    @RequestMapping("/")
+    @GetMapping("/")
     public String index() {
         return "Hi Sanket, Greetings from Spring Boot!";
     }
 
-    @RequestMapping("/coal-mine")
+    @GetMapping("/coal-mine")
     public String coalMine() {
         String value = "TWEET";
 
         return value;
     }
 
-    @RequestMapping("/hello")
+    @GetMapping("/hello")
     public Person Hello() {
         return new Person("Hello World!");
     }
 
-    @RequestMapping(path = "hello/{name}")
+    @GetMapping(path = "hello/{name}")
     public Person getHelloName(@PathVariable("name") String name) {
         StringBuilder value = new StringBuilder("Hello ");
 
