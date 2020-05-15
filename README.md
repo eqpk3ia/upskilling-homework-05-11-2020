@@ -22,5 +22,5 @@ Be sure when the Accept header is */* or application/json it returns the JSON ob
 mvn clean install
 ##### Add jar to image
 docker build -t spring-boot .
-
-WIP...
+##### Run docker image
+docker run -P -d --rm spring-boot
