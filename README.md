@@ -12,12 +12,11 @@ Update this endpoint to respond with <value>Hello World</value> when my Accept H
 Be sure when the Accept header is */* or application/json it returns the JSON object.
 - Make an endpoint of /hello/{name}
     - Respond with the JSON equivalent of "Hello {name}"
-
--Build out a User object
-	- Users include first/last name, email and phone
-	- Create full CRUD support (including get all and delete all)
-	- Store users in your datastore
-	- Build everything in a TDD fashion
+- Build out a User object
+    - Users include first/last name, email and phone
+    - Create full CRUD support (including get all and delete all)
+    - Store users in your datastore
+    - Build everything in a TDD fashion
 	
 ##### build Project
 mvn clean install
