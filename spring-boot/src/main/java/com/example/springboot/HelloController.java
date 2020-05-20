@@ -1,6 +1,8 @@
 package com.example.springboot;
 
-import com.example.entity.*;
+
+import com.example.springboot.entity.*;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController

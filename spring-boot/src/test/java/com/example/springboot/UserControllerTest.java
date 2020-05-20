@@ -79,7 +79,7 @@ public class UserControllerTest {
         System.out.println("**************** Get Users Response End ****************");
 	}
 
-    /*@Test
+    @Test
 	public void getUsers() throws Exception {
         System.out.println("**************** Get Users ****************");
         this.mockMvc.perform(get("/users")).andDo(print()).andExpect(status().isOk());
@@ -88,5 +88,5 @@ public class UserControllerTest {
         System.out.println(this.mockMvc.perform(get("/users")).andDo(print()));
         System.out.println("**************** Get Users Response End ****************");
 				
-	}*/
+	}
 }

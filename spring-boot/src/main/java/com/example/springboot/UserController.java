@@ -3,6 +3,9 @@ package com.example.springboot;
 import java.util.List;
 import java.util.Optional;
 
+import com.example.springboot.entity.User;
+import com.example.springboot.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
